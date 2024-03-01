@@ -3,8 +3,8 @@ import streamlit as st
 import time
 from openai import OpenAI
 
-assistant_id = "asst_sdtn3vIO0vF44IzTlgWh3zZ6"
-client = OpenAI(api_key="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")
+assistant_id = "YOUR ASSISTANT ID"
+client = OpenAI(api_key="YOUR API KEY")
 
 if "start_chat" not in st.session_state:
     st.session_state.start_chat = False
